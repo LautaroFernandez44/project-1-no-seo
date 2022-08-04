@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(135deg, #8ac1ef, #ca6ce9, #8ac1ee, #e93356);
+	animation: gradient 10s ease infinite;
+	background-size: 400% 400%;
+   
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navbar {
+    height: auto;
+    margin-top: 30px;
+    width: 1000px;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+
+
+.card{
+    border: solid 6px #000;
+}
+
+img{
+    border-radius: 10px;
+    border: solid 3px #ca6ce9;
+}
+
+h1{
+    top: 150px;
+    left: 800px;
+    padding: 10px;
+    padding-left: 25px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    background-color: #d9d9d9;
+    display: inline;
+    border-radius: 10%;
+}
+
+h2{
+    font-family:'Alfa Slab One', cursive;
+    font-size: 31px;
+    color: #DFBAB1;
+}
+
+.card-text{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+.btn{
+    border: solid 5px #000;  
+}
+
+
+.footer{
+    font-family: 'Cascadia Code', 'sans-serif';
+    display: flex;
+    background-color: #666666;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 18px;
+    color: #Ffffff;
+}
+
+
+p{
+    font-size: 18px;
+}
+    
+
+
+  
+@media (min-width: 150px) and (max-width: 470px ) {
+
+    .footer{
+      font-size: 12px;
+      height: 90px;
+    }
+  
+    .imagen{
+      height: 40px;
+      width: 40px;
+    }
+}
+  
+@media (min-width:471px) and (max-width: 574px) {
+
+    .footer{
+      font-size: 14px;
+      height: 110px;
+    }
+  
+  
+    .imagen{
+      height: 50px;
+    }
+}
+
+  
+@media (min-width: 575px) and (max-width: 998px ) {
+  
+    
+    .footer{
+      font-size: 16px;
+      height: 90px;
+    }
+  
+    .imagen{
+      height: 50px;
+    }  
+}
+    
+@media (min-width:1841px){
+
+    .footer{
+        bottom: 0;
+        
+    }
+}
+    
+
+
+.container-fluid  {
+    --bs-gutter-x: 0;
+  }
+  
+
+
+ 
+
+  .nav-link{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #000;
+    
+  }
+  .btn{
+    border: solid 5px #000;  
+  }
+  
+  a:hover{
+    background-color: #1015b5;
+    border-radius: 50px;
+   
+  }
+  
+  .nav-link:hover{
+    color: #fff;
+  }
+  
+  .home1:hover{
+    background-color: unset;
+  }
+
+  a{
+    margin-inline: 7px;
+  }
+  .home1{
+    font-size: 25px;
+  }
